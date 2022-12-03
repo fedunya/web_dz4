@@ -1,20 +1,20 @@
 <?php
 
-$name = 'Иннокентий'; // строка
+$name = 'РРЅРЅРѕРєРµРЅС‚РёР№';
 
-$city = 'Москва, Россия'; // строка
+$city = 'РњРѕСЃРєРІР°, Р РѕСЃСЃРёСЏ';
 
-$profi = 'Дизайнер'; // строка
+$profi = 'Р”РёР·Р°Р№РЅРµСЂ';
 
-$email = 'email@email.com'; // строка
+$email = 'email@email.com';
 
-$phone = 89037778866; // десятичное число
+$phone = 89037778866;
 
 $age = 2022-1985;
 
 $skills = [
 
-'skill_name' => ['Adobe Photoshop', 'Фотография', 'Illustrator', 'Копирайтинг'],
+'skill_name' => ['Adobe Photoshop', 'Р¤РѕС‚РѕРіСЂР°С„РёСЏ', 'Illustrator', 'РљРѕРїРёСЂР°Р№С‚РёРЅРі'],
 
 'level' => [97, 83, 70, 80]
 
@@ -22,7 +22,7 @@ $skills = [
 
 $languages = [
 
-'language' => ['Английский', 'Испанский', 'Немецкий'],
+'language' => ['РђРЅРіР»РёР№СЃРєРёР№', 'РСЃРїР°РЅСЃРєРёР№', 'РќРµРјРµС†РєРёР№'],
 
 'level' => [100, 55, 25]
 
@@ -56,7 +56,7 @@ $education = [
 
 <head>
 
-<title>Мое резюме</title>
+<title>РњРѕРµ СЂРµР·СЋРјРµ</title>
 
 <meta charset="UTF-8">
 
@@ -118,11 +118,11 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: 'Jost', sans-serif;}
 
 <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i><?php echo $phone ?></p>
 
-<p><i class="fa fa-hourglass-half fa-fw w3-margin-right w3-large w3-text-teal"></i><?php echo $age ?> лет</p>
+<p><i class="fa fa-hourglass-half fa-fw w3-margin-right w3-large w3-text-teal"></i><?php echo $age ?> Р»РµС‚</p>
 
 <hr>
 
-<p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Навыки</b></p>
+<p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>РќР°РІС‹РєРё</b></p>
 
 <?php for ($i = 0; $i < 4; $i++) { ?>
 
@@ -138,7 +138,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: 'Jost', sans-serif;}
 
 <br>
 
-<p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Языки</b></p>
+<p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>РЇР·С‹РєРё</b></p>
 
 <?php for ($i = 0; $i < 3; $i++) { ?>
 
@@ -168,7 +168,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: 'Jost', sans-serif;}
 
 <div class="w3-container w3-card w3-white w3-margin-bottom">
 
-<h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Опыт работы</h2>
+<h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>РћРїС‹С‚ СЂР°Р±РѕС‚С‹</h2>
 
 <?php for ($i = 0; $i < 3; $i++) { ?>
 
@@ -190,7 +190,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: 'Jost', sans-serif;}
 
 <div class="w3-container w3-card w3-white">
 
-<h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Образование</h2>
+<h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>РћР±СЂР°Р·РѕРІР°РЅРёРµ</h2>
 
 <?php for ($i = 0; $i < 3; $i++) { ?>
 
