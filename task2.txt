@@ -1,0 +1,31 @@
+
+
+-- create
+
+CREATE TABLE EMPLOYEE (
+
+  id INTEGER PRIMARY KEY,
+
+  name TEXT NOT NULL,
+
+  age INTEGER NOT NULL,
+
+  address TEXT NOT NULL
+
+);
+
+
+
+-- insert
+
+INSERT INTO EMPLOYEE VALUES (0001, 'Clark', 21, 'Moscow');
+
+INSERT INTO EMPLOYEE VALUES (0002, 'Dave', 32, 'Rostov');
+
+INSERT INTO EMPLOYEE VALUES (0003, 'Ava', 29, 'Volgograd');
+
+
+
+-- fetch
+
+SELECT * FROM EMPLOYEE WHERE age > 21;
